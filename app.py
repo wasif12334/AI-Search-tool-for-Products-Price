@@ -174,29 +174,3 @@ if search:
 
     st.info(response.recommendation)
 
-    # ----------------------------
-    # Expandable JSON
-    # ----------------------------
-
-    with st.expander("View Raw Structured Output"):
-        st.json(response.model_dump())
-
-    # ----------------------------
-    # Feedback
-    # ----------------------------
-
-    st.divider()
-
-    st.subheader("Feedback")
-
-    rating = st.slider(
-        "How helpful was this search?",
-        1,
-        5,
-        5
-    )
-
-    comment = st.text_area(
-        "Additional Comments"
-    )
-
