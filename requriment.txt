@@ -1,9 +1,15 @@
-langchain
-langchain-community
-langchain-core
-langchain-classic
-langchain-mistralai
-mistralai
+streamlit==1.49.1
 
-pypdf
-python-dotenv 
+langchain==1.3.14
+langchain-core==1.5.3
+langchain-community==0.4.2
+langchain-google-genai==4.3.2
+
+pydantic==2.13.4
+python-dotenv==1.2.2
+pandas==3.0.5
+
+tavily-python
+
+# If you're still using the old Tavily import
+# langchain-tavily
