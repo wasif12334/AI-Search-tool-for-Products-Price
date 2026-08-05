@@ -7,7 +7,7 @@ langchain-google-genai==4.3.2
 
 pydantic==2.13.4
 python-dotenv==1.2.2
-pandas==3.0.5
+pandas
 
 tavily-python
 
